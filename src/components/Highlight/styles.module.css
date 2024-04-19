@@ -1,0 +1,13 @@
+.highlight {
+    background-color: var(--bg-highlight);
+    padding: 3.125rem 1.875rem;
+}
+
+.highlight div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 650px;
+}

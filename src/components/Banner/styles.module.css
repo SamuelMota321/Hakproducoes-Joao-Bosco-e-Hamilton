@@ -1,0 +1,17 @@
+.bannerSection {
+    max-width: 100vw;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.bannerSection img {
+    width: 100%;
+
+}
+
+@media (max-width: 768px) {
+
+    .bannerSection img {
+        overflow: hidden;
+    }
+}
