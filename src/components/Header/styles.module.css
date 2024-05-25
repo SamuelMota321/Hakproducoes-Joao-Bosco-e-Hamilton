@@ -3,14 +3,12 @@
     top: 0;
     padding: 1.25rem 0.9375rem;
     width: 100%;
-    background: var(--color-primary);
-    background: linear-gradient(30deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-    color: var(--white);
-    height: 12vh;
+    background-color: var(--color-primary);
     transition: top 0.5s;
     z-index: 999;
     
 }
+
 .header::after {
     content: '';
     position: absolute;
@@ -19,8 +17,9 @@
     transform: translateX(-50%); 
     border-left: 25px solid transparent; 
     border-right: 25px solid transparent; 
-    border-top: 20px solid var(--header-detail); 
+    border-top: 20px solid var(--color-primary); 
 }
+
 
 .visible {
     top: 0;
@@ -48,8 +47,8 @@
 .header li {
     width: 30px;
     height: 30px;
-    background: var(--color-primary);
-    background: linear-gradient(90deg, var(--color-primary) 0%, var(--black) 100%);
+    background: var(--white);
+    background: linear-gradient(80deg, var(--white) -20%, var(--black) 100%);
     padding: 5px;
     border-radius: 3px;
 }

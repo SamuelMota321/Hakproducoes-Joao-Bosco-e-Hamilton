@@ -1,0 +1,19 @@
+.highlight {
+    background-color: var(--bg-highlight);
+    padding: 3.125rem 1.875rem;
+    text-align: center;
+}
+
+.highlight div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+}
+
+.paragraph {
+    max-width: 1440px;
+
+}

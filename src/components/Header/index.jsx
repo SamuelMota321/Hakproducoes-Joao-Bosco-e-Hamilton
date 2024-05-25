@@ -31,8 +31,8 @@ const Header = () => {
       <header className={`${styles.header} ${isVisible ? styles.visible : styles.hidden}`}>
         <div className="container">
           <div>
-            <h1 className="title lg">Hakproducoes</h1>
-            <h2 className="title md end">.com.br</h2>
+            <h1 className="title lg bold">Hakproducoes</h1>
+            <h2 className="title md end bold">.com.br</h2>
           </div>
           <ul>
             <li>

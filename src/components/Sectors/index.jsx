@@ -1,50 +1,59 @@
 import styles from './styles.module.css';
-import { useState } from 'react';
-import sectorOne from '../../assets/imgs/setor-um.png'
-import sectorTwo from '../../assets/imgs/setor-dois.png'
+import camarote from '../../assets/imgs/camarote-premium.png'
+import setorMesas from '../../assets/imgs/setor-mesas.png'
+import setorMesasPremium from '../../assets/imgs/setor-mesas-premium.png'
 
-const SectorsSection = () => {
-  const [zoomedImage, setZoomedImage] = useState(null)
+export const Sectors = () => {
 
-  const handleImageClick = (imageName) => {
-    setZoomedImage(imageName)
-  };
-
-  const handleZoomClose = () => {
-    setZoomedImage(null)
-  };
 
   return (
-    <section className={styles.sectors}>
-      <h2 className={`${styles.title} title lg center`}>Setores</h2>
-      <h2 className='title md center'>Clique em uma imagem para dar ZOOM</h2>
-     
-      <div className={styles.sectorImg}>
-        <img
-          src={sectorOne}
-          alt="Setor Um"
-          onClick={() => handleImageClick(sectorOne)}
-        />
-        <img
-          src={sectorTwo}
-          alt="Setor Dois"
-          onClick={() => handleImageClick(sectorTwo)}
-        />
+    <section className={styles.sectorFlex}>
+      <div>
+        <img src={camarote} alt="Imagem do Camarote" />
+        <p className='paragraph center'>Camarote Open Bar Premium</p>
       </div>
 
-      {zoomedImage && (
-        <div className={styles.imgModal} onClick={handleZoomClose} role='dialog'>
-          <div className={styles.imgModalBox}>
-            <img
-              src={zoomedImage}
-              alt={zoomedImage}
-             
-            />
-          </div>
-        </div>
-      )}
+      <div>
+        <img src={setorMesas} alt="Setor de Mesas" />
+        <p className='paragraph center'>Setor de Mesas Gold </p>
+      </div>
+
+      <div>
+        <img src={setorMesasPremium} alt="Setor de Mesas Premium" />
+        <p className='paragraph center'>Setor de Mesas Premium</p>
+      </div>
     </section>
   )
 }
 
-export default SectorsSection
+export const OtherSectors = () => {
+  return (
+    <section className='container'>
+      <h1 className='title lg center blackItalic'>OUTROS AMBIENTES: </h1>
+
+      <div className={styles.enviroments}>
+        <div>
+          <h1 className='title lg start bold'>ILHA DE QUEIJOS E VINHOS</h1>
+          <p className='paragraph'>
+            Espaço situado nos <span className='bold'>pisos inferior e superior</span> do salão,
+            com mesas e cadeiras, <span className='bold'>tela com transmissão</span> dos shows,
+            atendimento de profissionais especializados e <span className='bold'>ótima carta de vinhos</span>
+            e <span className='bold'>opções de queijos e quitutes.</span>
+          </p>
+        </div>
+
+        <div className='flexEnd'>
+          <h1 className='title lg end bold' >BARES DO EVENTO</h1>
+          <p className='paragraph end'>O evento contará com <span className='bold'>bares</span> de atendimento ao público nos <span className='bold'>pisos inferior e superior.</span></p>
+        </div>
+
+        <div>
+          <h1 className='title lg start bold'>VARANDAS LATERAIS</h1>
+          <p className='paragraph'>O salão do evento conta com <span className='span'>varandas laterais</span> e <span className='bold'>vista privilegiada do Lago Paranoá</span> e estacionamentos da AABB.</p>
+        </div>
+      </div>
+
+    </section>
+  )
+}
+

@@ -1,13 +1,20 @@
+@font-face {
+    font-family: 'Helvetica Black Italic';
+    src: url(../assets/fonts/helvetica-neue-5/HelveticaNeueBlackItalic.otf) format('truetype');
+}
+
 :root {
-    --color-primary: #FF6868;
-    --color-secondary:#2B2B2B;
-    --color-button: #0A0262;
-    --header-detail: #a14e4e;
-    --white: #ffffff;
+    --color-primary: #b5b5b5;
+    --color-button: #045589;
     --bg: #fff;
     --bg-highlight: #D9D9D9;
+    --bg-highlight-2: #E4BA7B;
     --black: #000;
-    --font-stack: "Poppins", sans-serif;
+    --gray:#757474;
+    --gray-2:#B5B5B5;
+    --white: #ffffff;
+    --font-stack: Helvetica , sans-serif;
+    --font-title: 'Helvetica Black Italic', sans-serif;
 }
 
 *,
@@ -22,6 +29,7 @@
 body {
     background: var(--bg);
     font-family: var(--font-stack);
+    font-weight: 50;
     
 }
 

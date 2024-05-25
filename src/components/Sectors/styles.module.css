@@ -1,61 +1,32 @@
-.sectors {
+.sectorFlex {
     display: flex;
-    flex-direction: column;
+    gap: 30px;
     justify-content: center;
-    align-items: center;
-    gap: 15px;
+
 }
 
-.title {
-    width: 100%;
-    padding: 1.875rem 0;
-    background-color: var(--bg-highlight);
-    margin: 25px 0;
-}
-
-.sectorImg {
-    display: flex;
-    gap: 1.875rem;
-}
-
-.sectorImg img{
-    display: flex;
-    gap: 1.875rem;
+.sectorFlex img {
     width: 100%;
 }
 
-@media (max-width: 1024px){
-    .sectorImg {
+.sectorFlex p {
+    color: var(--gray);   
+}
+
+@media (max-width: 1023px) {
+    .sectorFlex{
         flex-direction: column;
     }
-    
+
 }
 
-.imgModal {
-    position: fixed;
+.enviroments {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    inset: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-}
-
-.imgModalBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 100%;
-    max-width: 1200px;
-    max-height: 800px;
-    height: 100%;
-    border-radius: 0.625rem;
-    background-color: white;
+    gap: 100px;
+    padding: 100px 20px ;
 }
 
-.imgModalBox img {
-    width: 80%;
+.enviroments p {
+    max-width: 738px ;
 }

@@ -1,24 +1,43 @@
-.video {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.videoContainer {
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 50px;
+  height: auto;
 }
 
-.iframeWrapper {
-    position: relative;
-    padding-bottom: 56.25%; 
-    height: 0;
-    overflow: hidden;
-  }
-  
-  .iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+.videoCover {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.videoCoverImage {
+  width: 100%;
+  height: auto;
+}
+
+
+.playbtn {
+  position: absolute;
+  background-image: url(../../assets/icon/play-icon.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  height: 100px;
+  opacity: .6;
+  cursor: pointer;
+ 
+}
+
+.video {
+  width: 100%;
+}

@@ -1,0 +1,96 @@
+.artistDiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.textJoao {
+    width: 100%;
+    padding: 0px 0 0 9.375rem;
+}
+
+.joao {
+    display: flex;
+    justify-content: flex-end ;
+    justify-self: flex-end;
+    width: 100%;
+}
+
+.joao img {
+    width: 100%;
+}
+
+.textDiv {
+    width: 100%;
+    padding: 0px 6.25rem 0 0px;
+    text-align: right;
+}
+
+.text {
+    width: 100%;
+
+
+}
+
+.hamiltonDiv {
+    background-color: var(--bg-highlight);
+}
+
+.hamilton {
+    margin-top: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.hamilton img{ 
+    width: 75%;
+
+}
+
+.titleDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5rem 6.25rem;
+}
+
+@media (max-width: 1024px) {
+    .hamilton {
+        margin-top: -8%;
+    }
+    .textDiv,
+    .textJoao{
+        padding: 1.875rem;
+    }
+
+
+}
+@media (max-width: 1023px) {
+    .artistDiv {
+        flex-direction: column;
+
+    }
+
+    .textJoao{
+        padding: 1.25rem;
+        text-align: center;
+    }
+
+    .textDiv{
+        padding: 1.25rem;
+        text-align: center;
+    }
+
+    .hamilton {
+        margin-top: 0;
+    }
+
+    .titleDiv {
+        padding: 1.25rem;
+    }
+}
