@@ -44,20 +44,39 @@
     text-align: start;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
+
+    .title.sm {
+        font-size: 17px;
+    }
+
+    .title.md {
+        font-size: 19px;
+    }
+
+    .title.lg {
+        font-size: 21px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and ( max-width: 1024px) {
 
     .title {
         line-height: 1.2;
     }
-    
+
     .title.sm {
         font-size: 1.25rem;
     }
-    
+
     .title.md {
         font-size: 1.5625rem;
     }
-    
+
     .title.lg {
         font-size: 1.875rem;
     }
@@ -66,7 +85,7 @@
         line-height: 1.4;
         font-size: 16px;
         font-weight: 500;
-    
+
     }
 
 }

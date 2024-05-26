@@ -1,4 +1,11 @@
 .highlight {
     background-color: var(--bg-highlight-2);
-    padding: 1.875rem; ;
+    padding: 20px;
+    ;
+}
+
+@media (max-width: 768px) {
+    .highlight {
+        padding: 10px;
+    }
 }

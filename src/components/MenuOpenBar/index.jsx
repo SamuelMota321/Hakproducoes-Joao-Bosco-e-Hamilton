@@ -33,7 +33,7 @@ export const MenuOpenbar = () => {
 
                 <div className={styles.titleDiv}>
                     <img src={bottle} alt="icone de barrafa" />
-                    <h1 className="title sm center bold">CARDÁPIO OPEN BAR PREMIUM:</h1>
+                    <h1 className="title sm bold">CARDÁPIO OPEN BAR PREMIUM:</h1>
                 </div>
 
                 <div className={styles.ulDiv}>

@@ -1,6 +1,7 @@
 .openBar {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 100px;
 }
 
@@ -9,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 30px;
     width: 100%;
 }
 
@@ -16,14 +18,12 @@
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding: 20px;
-    width: 100%;
-
 }
 
 .ul {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -32,12 +32,6 @@
 
 }
 
-
-.titleDiv h1 {
-    width: 100%;
-    margin-left: -80px;
-
-}
 
 .titleDiv {
     position: relative;
@@ -50,7 +44,7 @@
 .titleDiv img {
     position: absolute;
     top: 0;
-    left: 5%;
+    left: 9%;
 }
 
 .gap {

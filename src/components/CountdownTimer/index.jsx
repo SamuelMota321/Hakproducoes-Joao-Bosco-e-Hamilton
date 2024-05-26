@@ -32,7 +32,7 @@ const CountdownTimer = () => {
 
     return (
         <section className={`${styles.countDownTimer} container`}>
-            <h1 className='title lg highlight center blackItalic'>EU VOU PRO SAMBA!</h1>
+            <h1 className='title lg center'>Contagem regressiva</h1>
             <h2 className='title lg center'>{timeRemaining}</h2>
             <p className='paragraph center'>para o show</p>
             <Button text='GARANTA SEU INGRESSO AGORA!' className={'btn'}/>
