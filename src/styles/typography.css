@@ -63,22 +63,22 @@
     }
 }
 
-@media (min-width: 768px) and ( max-width: 1024px) {
+@media (min-width: 768px) and ( max-width: 1366px) {
 
     .title {
         line-height: 1.2;
     }
 
     .title.sm {
-        font-size: 1.25rem;
+        font-size: 23px;
     }
 
     .title.md {
-        font-size: 1.5625rem;
+        font-size: 28px;
     }
 
     .title.lg {
-        font-size: 1.875rem;
+        font-size: 33px;
     }
 
     .paragraph {
