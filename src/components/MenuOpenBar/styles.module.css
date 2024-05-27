@@ -17,13 +17,13 @@
 .ulDiv {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
+    width: 100%;
 }
 
 .ul {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -62,6 +62,10 @@
         margin-left: 0px;
     }
 
+}
+
+@media (max-width: 1366px) {
+    
 }
 
 @media (max-width: 1024px) {

@@ -1,4 +1,3 @@
-import footerImg from '../../assets/imgs/footer-img.png'
 import correio from '../../assets/imgs/correio.png'
 import hplus from '../../assets/imgs/hplus.png'
 import hai from '../../assets/imgs/hai.png'
@@ -9,14 +8,10 @@ import styles from './styles.module.css'
 const Footer = () => {
   return (
     <footer>
-      <div className={styles.footerImgDiv}>
-        <img src={footerImg} alt="Show de musica" />
-      </div>
-
       <div className={styles.gray}>
         <div className={styles.cart}>
           <p className='paragraph'>Apoio Cultural</p>
-          <img  src={correio} alt="" />
+          <img src={correio} alt="" />
         </div>
 
         <div>
