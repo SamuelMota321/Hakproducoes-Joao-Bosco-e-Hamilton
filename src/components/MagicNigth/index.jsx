@@ -1,3 +1,4 @@
+import { Button } from '../Button';
 import styles from './styles.module.css';
 
 const Highlight = () => {
