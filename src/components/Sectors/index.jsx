@@ -36,8 +36,7 @@ export const OtherSectors = () => {
           <h1 className='title lg start bold'>ILHA DE QUEIJOS E VINHOS</h1>
           <p className='paragraph'>
             Espaço situado nos <span className='bold'>pisos inferior e superior</span> do salão,
-            com mesas e cadeiras, <span className='bold'>tela com transmissão</span> dos shows,
-            atendimento de profissionais especializados e <span className='bold'>ótima carta de vinhos</span>
+            com mesas e cadeiras, atendimento de profissionais especializados e <span className='bold'>ótima carta de vinhos </span>
             e <span className='bold'>opções de queijos e quitutes.</span>
           </p>
         </div>
@@ -50,6 +49,11 @@ export const OtherSectors = () => {
         <div>
           <h1 className='title lg start bold'>VARANDAS LATERAIS</h1>
           <p className='paragraph'>O salão do evento conta com <span className='span'>varandas laterais</span> e <span className='bold'>vista privilegiada do Lago Paranoá</span> e estacionamentos da AABB.</p>
+        </div>
+
+        <div className='flexEnd'>
+          <h1 className='title lg end bold'>CAMAROTE LOUNGE</h1>
+          <p className='paragraph end'>Espaço situado no piso superior, ambientado com poltronas e puffs.</p>
         </div>
       </div>
 

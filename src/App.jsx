@@ -11,6 +11,7 @@ import bgImg from './assets/imgs/fundo-dourado.png'
 import './styles/index.css'
 import { Highlight } from './components/Highlight'
 import { MenuOpenbar } from './components/MenuOpenBar'
+import EventMap from './components/EventMap'
 
 
 
@@ -84,6 +85,7 @@ function App() {
       />
 
       <OtherSectors/>
+      <EventMap/>
 
       <Highlight title="GARANTA SEU LUGAR NESTE ESPETÁCULO IMPERDÍVEL E DEIXE-SE LEVAR PELA CADÊNCIA IRRESISTÍVEL DO RITMO QUE FAZ PARTE DO DNA CULTURAL DO NOSSO PAÍS." />
 

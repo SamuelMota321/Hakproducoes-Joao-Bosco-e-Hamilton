@@ -32,7 +32,7 @@ export const ArtistDetails = () => {
                             CAMAROTE OPEN BAR PREMIUM - com espaço
                             e visão privilegiada do palco </span>- ambos
                         os setores com <span className="bold">vaga no estacionamento </span>
-                        incluso e gratuito.
+                        interno da AABB inclusa e gratuita.
                     </p>
                     <Button className="btn" text={"INGRESSOS LIMITADOS"} />
                 </div>
