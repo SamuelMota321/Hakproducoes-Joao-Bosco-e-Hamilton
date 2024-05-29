@@ -38,7 +38,7 @@ const EventMap = () => {
 
     return (
         <section className="container">
-            <h1 className="title lg center bold">Mapa do Evento</h1>
+            <h1 className="title lg center blackItalic">Mapa do Evento</h1>
             <div>
                 <img src={eventImg} alt={"Imagem Ilustrativa do Evento"} onClick={openModal} style={{ cursor: 'pointer', width: "100%" }} />
                 {isOpen && (
